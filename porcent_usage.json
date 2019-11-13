@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "porcent_usage": {
+      "type": "metric",
+      "command": "metrics-cpu-pcnt-usage.rb",
+      "subscribers": [
+        "development"
+      ],
+      "interval": 10,
+      "handler": "debug"
+    }
+  }
+}

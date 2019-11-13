@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "cron": {
+      "command": "check-process.rb -p cron",
+	"standalone": true,
+      "subscribers": [
+        "development"
+      ],
+      "interval": 60
+    }
+  }
+}

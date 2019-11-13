@@ -1,0 +1,9 @@
+{
+  "checks": {
+    "apache_check": {
+      "command": "check-apache.rb",
+      "interval": 60,
+      "subscribers": [ "development" ]
+    }
+  }
+}
